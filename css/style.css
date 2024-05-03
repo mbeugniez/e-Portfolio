@@ -427,8 +427,10 @@ padding: 50px 0;
 /* FIN CSS Skills DIV */
 /* CSS EXPERIENCES DIV */
 .experiences{
+  /* border: solid 5px;
+  border-color: aqua; */
   display: flex;
-  background-color: #DFD8CA;
+  background-color: #FAF9EE;
   height: 70vh;
   flex-direction: column;
   align-items: center;
@@ -436,40 +438,32 @@ padding: 50px 0;
   padding-bottom: 2%;
 }
 
-.experiences h2{
+.experiences-title{
   color: #664C43;
+  display: flex;
+  flex-direction: column;
 }
 
-.experiences .line{
-  color:#664C43;
-  height: 90%;
-  align-self: center;
-  border: solid 1px;
-  margin: 0px 6% 0px 1%;
-  flex-grow: 1;
-}
-
-.experiences .bloc1{
+.bloc1{
   /* border: solid 5px; */
-  /* width: 50%;
-  height: 35%; */
-  flex-basis: auto;
+  /*width: 50%;*/
+ flex-basis:50%;
+  height: 70vh;
+  overflow-wrap: break-word;
   display:flex;
   flex-direction: row;
-  justify-content: center;
-  align-self: center;
+justify-content: center;
+	align-self: center;
 }
 
-.experiences .bloc2{
+.bloc2{
   /* border: solid 5px; */
   width: 50%;
   height: 35%;
   display:flex;
-  justify-content: center;
-  align-self: center;
 }
 
-.date-experiences{
+.date-experience{
   color:#664C43;
   /*border: solid 2px; */
   border-color: rgb(49, 223, 253);
@@ -478,32 +472,36 @@ padding: 50px 0;
   font-size: 1.1em;
 }
 
-.date-experiences p{
-  font-weight: 500;
+.experiences .line{
+  color:#DFD8CA;
+  height: 90%;
+  align-self: center;
+  border: solid 1px;
+  margin: 0px 6% 0px 1%;
+  flex-grow: 1;
 }
 
-.experiences .experience{
+.experience{
   background-color: #E9EDC9;
   color:#664C43;
+  max-width: 70%;
   border: solid 3px;
   border-color: #664C43;
-  flex-grow: 1;
   padding: 1% 2%;
 }
 
-.experiences .experience h3{
+.experience h3{
   font-size: 1.5em;
-  font-weight: 100;
+  font-weight: bold;
+  
 }
 
-.experiences .experience h4{
-  color: #664C43;
+.experience h4{
+  color: #afaba8;
   font-style: italic;
   font-size: 1.3em;
   opacity: 0.;
 }
-
-
 
 /* FIN CSS EXPERIENCE DIV */
 /* debut CSS contact DIV */
