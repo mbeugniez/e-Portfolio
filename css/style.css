@@ -1,0 +1,713 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color:#000000;
+    font-size: 90%;
+}
+
+.banner{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  color: #DFD8CA;
+  background-color: #c5bbb1;
+  flex-direction: column;
+}
+
+.news{
+  text-align: center;
+  width: 100%;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+.Page{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+p{
+  font-size: 1em;
+}
+
+.lead-content {
+    /* border: solid 3px;
+    border-color: aliceblue; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #FAF9EE;
+}
+.lead-content p {
+	font-family: 'Honess', sans-serif;
+	font-size: 180px;
+	color: #CCD5AE; 
+	line-height: 0.1em; 
+	z-index: 1;
+}
+
+.lead-content h1 {
+  /* border: solid 3px; 
+  border-color: aliceblue; */
+  color: #664C43;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.lead-content h3 {
+  color: #afaba8;
+  /* border: solid 3px;
+    border-color: aliceblue; */
+    font-size: 2.25em;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.btn-CV{
+  color: #664C43;
+  font-size: 1.2em;
+  font-weight: 800;
+  font-weight: bold;
+  display:inline-block;
+  margin: 0 43% 0 43%;
+  padding: 15px 25px;
+  border: solid 3px;
+  border-color: #664C43;
+  border-radius: 30px;
+  background-color:#E9EDC9;
+}
+
+.btn-CV:hover{
+  color: #DFD8CA;
+  text-decoration: none;
+  background-color: #CCD5AE;
+  transition: .7s ease all;
+}
+
+.items{
+    /* border: solid 3px;
+    border-color: pink; */
+    margin-top: 2%;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item{
+    border-radius: 50px;
+    margin: 15px 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    height: 300px;
+    width: 300px;
+}
+
+.item:hover{
+    border: solid 1px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.9);
+    transition: 0.6s;
+    transform: scale(1.05)
+}
+
+h2{
+  /* border: solid 3px;
+  border-color: aliceblue; */
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+}
+
+.about h2::after{
+  display: flex;
+  content: "";
+  border: solid 1px;
+  transform: rotate(180deg);
+  margin: 5px 42%;
+}
+
+h2::after{
+  display: flex;
+  content: "";
+  border: solid 1px;
+  transform: rotate(180deg);
+  margin: 5px 25%;
+}
+
+.map{
+    border-radius: 50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.about{
+    display: flex;
+    flex-direction: row;
+    background-color: #DFD8CA;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    max-height: 30vh;
+}
+
+.Moi{
+  text-align: center;
+  flex-grow: 1;
+  color: #664C43;
+}
+
+
+.Moi-texte{
+  /* border: solid 3px;
+  border-color: aliceblue; */
+  color: #664C43;
+  width: 40%;
+  margin-right: 15%;
+  font-size: 1.1em;
+}
+
+/* CSS COMPETENCES DIV */
+
+.competences{
+  position: flex;
+  flex-direction: column;
+  background-color: #DFD8CA;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.competences-titre{
+  color: #664C43;
+}
+
+.competences2{
+  /* border: solid 10px;
+  border-color: aliceblue; */
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+  width: 80%;
+  margin-left: 10%;
+  top: 50%;
+}
+
+.competence{
+  text-align: center;
+  min-width: 8%;
+  color: #664C43;
+  background-color: #E9EDC9;
+  border-radius: 5px;
+}
+
+.competence p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 22%;
+}
+
+.competence :hover {
+  transform: scale(1.05); /* Agrandissement de 5% lors du survol */
+  transition: transform 0.3s ease; /* Animation fluide de 0.3 seconde */
+}
+
+/* FIN CSS COMPETENCES DIV */
+
+/* CSS PROJET DIV */
+
+.projet{
+  background-color: #FAF9EE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.projet-titre{
+  color: #664C43;
+}
+/* Définit les propriétés pour les éléments avec la classe .item */
+.item {
+  position: relative; /* Position relative pour permettre le positionnement absolu de la bulle */
+  display: inline-block; /* Affichage en ligne avec un espace réservé pour les éléments suivants */
+}
+
+/* Définit les propriétés pour les bulles d'information */
+.bubble {
+  visibility: hidden; /* La bulle est initialement invisible */
+  width: 150px; /* Largeur de la bulle */
+  background-color: #DFD8CA; /* Couleur de fond de la bulle */
+  color: #664C43; /* Couleur du texte de la bulle */
+  text-align: center; /* Alignement du texte au centre de la bulle */
+  border-radius: 8px; /* Bordure arrondie de la bulle */
+  padding: 5px 0; /* Espacement intérieur de la bulle */
+  position: absolute; /* Position absolue pour positionner la bulle par rapport à son parent */
+  z-index: 1; /* Z-index pour empiler la bulle au-dessus des autres éléments */
+  bottom: 80%; /* Positionnement de la bulle au-dessus de l'élément parent */
+  left: 45%; /* Positionnement de la bulle au centre de l'élément parent */
+  margin-left: -60px; /* Ajustement pour centrer la bulle horizontalement */
+  opacity: 0; /* Opacité initiale de la bulle (invisible) */
+  transition: opacity 0.3s; /* Transition fluide de l'opacité lorsqu'elle change */
+}
+
+/* Définit le comportement lorsque survolé l'élément avec la classe .item */
+.item:hover .bubble {
+  visibility: visible; /* La bulle devient visible lorsque l'élément est survolé */
+  opacity: 1; /* Opacité maximale lorsque la bulle est visible */
+}
+
+/* FIN CSS PROJET DIV */
+
+/* CSS PARCOURS DIV */
+
+.parcours{
+  display: flex;
+  background-color: #DFD8CA;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.parcours h2{
+  color: #664C43;
+}
+
+.parcours .line{
+  color:#664C43;
+  height: 90%;
+  align-self: center;
+  border: solid 1px;
+  margin: 0px 6% 0px 1%;
+  flex-grow: 1;
+}
+
+.parcours .bloc1{
+  /* border: solid 5px; */
+  /* width: 50%;
+  height: 35%; */
+  flex-basis: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+}
+
+.parcours .bloc2{
+  /* border: solid 5px; */
+  width: 50%;
+  height: 35%;
+  display:flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.date-parcours{
+  color:#664C43;
+  /*border: solid 2px; */
+  border-color: rgb(49, 223, 253);
+  flex-grow: 1;
+  padding: 1% 1%;
+  font-size: 1.1em;
+}
+
+.date-parcours p{
+  font-weight: 500;
+}
+
+.parcours .experience{
+  background-color: #E9EDC9;
+  color:#664C43;
+  border: solid 3px;
+  border-color: #664C43;
+  flex-grow: 1;
+  padding: 1% 2%;
+}
+
+.parcours .experience h3{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.parcours .experience h4{
+  color: #664C43;
+  font-style: italic;
+  font-size: 1.3em;
+  opacity: 0.;
+}
+
+/* FIN CSS PARCOURS DIV */
+/* CSS Skills DIV */
+
+/* Style de la ligne sous "Mes compétences" */
+
+.skills {
+  display: flex; /* Affiche les compétences en mode flex */
+  flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+  justify-content: space-around; /* Répartit les éléments de manière égale avec un espace autour */
+  align-items: flex-start; /* Alignement des éléments sur le côté supérieur */
+  background-color: #FAF9EE; /* Couleur de fond */
+  padding: 40px; /* Ajoute un espace intérieur de 20 pixels */
+  margin-top: 0px; /* Ajoute une marge en haut de 20 pixels */
+}
+
+/* Titre des compétences */
+/* Style du titre des compétences */
+.skills-title {
+  width: 100%; /* Largeur de 100% */
+  text-align: center; /* Alignement du texte au centre */
+  margin-bottom: 30px; /* Marge inférieure de 30 pixels */
+  color: #664C43; /* Couleur du texte */
+}
+
+/* Liste des compétences */
+.skills-list {
+  display: flex; /* Affiche la liste des compétences en mode flex */
+  flex-wrap: wrap; /* Permet le retour à la ligne des éléments */
+}
+
+/* Style du titre de chaque compétence */
+.skills-list h3 {
+  text-align: center; /* Alignement du texte au centre */
+  margin-bottom: 40px; /* Marge inférieure de 40 pixels */
+  width: 100%; /* Largeur de 100% */
+  color: #664C43; /* Couleur du texte */
+}
+
+/* Style de la liste des compétences */
+.skills-list ul {
+  list-style-type: none; /* Supprime les puces de liste */
+  padding: 10px; /* Ajoute un espace intérieur de 10 pixels */
+}
+
+/* Style de chaque compétence */
+.skills-list li {
+  background-color: #E9EDC9; /* Couleur de fond */
+  color: #664C43; /* Couleur du texte */
+  padding: 10px; /* Ajoute un espace intérieur de 10 pixels */
+  margin: 10px; /* Marge extérieure de 10 pixels */
+  border-radius: 5px; /* Ajoute un arrondi aux coins */
+  text-align: center; /* Alignement du texte au centre */
+  width: 250px; /* Largeur de 250 pixels */
+}
+
+/* Style des compétences impaires */
+.skills-list li:nth-child(odd) {
+  background-color: #CCD5AE; /* Couleur de fond pour les compétences impaires */
+}
+.skills-list li:hover {
+  transform: scale(1.05); /* Agrandissement de 5% lors du survol */
+  transition: transform 0.3s ease; /* Animation fluide de 0.3 seconde */
+}
+/* FIN CSS Skills DIV */
+/* CSS EXPERIENCES DIV */
+
+.experiences{
+  /* border: solid 5px;
+  border-color: aqua; */
+  display: flex;
+  background-color: #FAF9EE;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+
+.experiences-title{
+  color: #664C43;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloc1{
+  /* border: solid 5px; */
+  width: 50%;
+  height: 40%;
+  overflow-wrap: break-word;
+  display:flex;
+  flex-direction: row;
+}
+
+.bloc2{
+  /* border: solid 5px; */
+  width: 50%;
+  height: 35%;
+  display:flex;
+}
+
+.date-experience{
+  color:#664C43;
+  /*border: solid 2px; */
+  border-color: rgb(49, 223, 253);
+  flex-grow: 1;
+  padding: 1% 1%;
+  font-size: 1.1em;
+}
+
+.experiences .line{
+  color:#DFD8CA;
+  height: 90%;
+  align-self: center;
+  border: solid 1px;
+  margin: 0px 6% 0px 1%;
+  flex-grow: 1;
+}
+
+.experience{
+  background-color: #E9EDC9;
+  color:#664C43;
+  max-width: 70%;
+  border: solid 3px;
+  border-color: #664C43;
+  padding: 1% 2%;
+}
+
+.experience h3{
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+.experience h4{
+  color: #afaba8;
+  font-style: italic;
+  font-size: 1.3em;
+  opacity: 0.;
+}
+
+/* FIN CSS EXPERIENCE DIV */
+/* debut CSS contact DIV */
+/* Style des liens de la barre de navigation */
+.nav-link {
+  background-color: #DFD8CA; /* Couleur de fond */
+}
+
+/* Style du titre "Me contacter" */
+.contact-titre {
+  margin-top: 30px; /* Ajoutez l'unité 'px' pour spécifier la marge */
+  text-align: center; /* Centrage du texte */
+  font-size: 1rem; /* Taille de police */
+  font-weight: bold; /* Gras */
+  margin-bottom: 50px; 
+  color: #664C43; /* Couleur du texte */
+}
+
+.blocEmail {
+  text-align: center; /* Ajout de la propriété pour centrer le texte */
+  color: #664C43; /* Couleur du texte */
+  font-size: 2rem; /* Taille de police */
+  font-weight: bold; /* Gras */
+  margin-bottom: 30px; /* Marge inférieure de 30 pixels */
+}
+
+/* Style des liens de contact */
+.contact-links {
+  display: flex; /* Affichage en mode flex */
+  flex-direction: row; /* Direction des éléments en colonne */
+  justify-content: center; /* Centrer les éléments horizontalement */
+  margin: 0 auto; /* Centre les éléments horizontalement */
+  max-width: 800px; /* Limite la largeur des éléments pour éviter l'étirement */
+}
+
+/* Style d'un lien de contact individuel */
+.contact-link {
+  display: inline-block; /* Affichage en bloc inline */
+  padding: 10px 20px; /* Espacement intérieur */
+  margin: 10px; /* Réduire la marge extérieure */
+  border: 2px solid #664C43; /* Bordure */
+  border-radius: 5px; /* Bordure arrondie */
+  text-decoration: none; /* Suppression du soulignement du texte */
+  color: #664C43; /* Couleur du texte */
+  transition: all 0.3s ease; /* Transition fluide */
+}
+
+/* Style du survol d'un lien de contact */
+.contact-link:hover {
+  background-color: #CCD5AE; /* Couleur de fond au survol */
+  color: #FAF9EE; /* Couleur du texte au survol */
+}
+
+/* Espace entre les éléments de contact */
+.contact-link + .contact-link {
+  margin-left: 300px; /* Ajoute une marge à gauche du deuxième élément */
+}
+
+/* Media Query pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+  .contact-links {
+    flex-direction: column; /* Changer la direction des éléments en colonne */
+    align-items: center; /* Centrer les éléments horizontalement */
+  }
+}
+
+/* FIN CSS contact DIV */
+/* CHEVRON CSS */
+
+.Divchevron {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  bottom: 15px;
+  color: #fff;
+}
+
+.Divchevron i {
+  animation: pulsate 1.5s ease;
+  animation-iteration-count: infinite;
+  padding-top: 5px;
+}
+
+.gg-chevron-down {
+  color:#FAF9EE;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  margin-left: 49%;
+  width: 220px;
+  height: 220px;
+  border: 2px solid transparent;
+  border-radius: 100px
+}
+
+.gg-chevron-down::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  border-bottom: 5px solid;
+  border-right: 5px solid;
+  transform: rotate(45deg);
+  animation: pulsate 1.5s ease;
+  animation-iteration-count: infinite;
+  bottom: 0;
+}
+
+.gg-chevron-down:hover{
+  opacity: 0.6;
+}
+
+/* BOOTSTRAP NAVBAR MOI*/
+
+header{
+    background-color: #FAF9EE;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7em;
+}
+
+.nav-item{
+  font-weight: bolder;
+}
+
+.nav-item:hover{
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: .35s ease all;
+}
+
+/* BOOTSTRAP NAVBAR AUTOMATIC*/
+
+@media (max-width: 991px) {
+    .navbar-scroll {
+      background-color: #FAF9EE;
+    }
+       
+    .navbar-scroll .navbar-brand,
+    .navbar-scroll .nav-link,
+    .navbar-scroll .fa-bars {
+      color: #CCD5AE !important;
+    }         
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  .navbar-scroll .navbar-brand,
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color:#49352F;
+	background-color: #FAF9EE;
+  }
+  
+  .navbar-scroll {
+    box-shadow: none;
+  }
+  
+  .navbar-scrolled {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+  
+  .navbar-scrolled .navbar-brand,
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #4f4f4f;
+  }
+  
+  .navbar-scrolled {
+    background-color: #fff;
+  }
+  
+  @media (max-width: 450px) {
+    #intro {
+      height: 950px !important;
+    }
+  }
+  
+  @media (min-width: 550px) and (max-width: 750px) {
+    #intro {
+      height: 1100px !important;
+    }
+  }
+  
+  @media (min-width: 800px) and (max-width: 990px) {
+    #intro {
+      height: 600px !important;
+    }
+  }
+  
+  .display-1 {
+    font-weight: 500 !important;
+    letter-spacing: 40px;
+  }
+  
+  @media (min-width: 1600px) {
+    .display-1 {
+      font-size: 10rem;
+    }
+  }
+  
