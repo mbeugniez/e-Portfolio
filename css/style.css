@@ -750,17 +750,3 @@ header{
   margin-left: auto; /* Centre la zone de texte horizontalement */
   font-size: 1.1em;
 }
-.experiences {
-  /* Autres styles... */
-  height: 80vh; /* Augmente la hauteur de la case "Expérience" */
-}
-
-.experience {
-  /* Autres styles... */
-  max-width: 90%; /* Ajuste la largeur maximale de la case "Expérience" */
-}
-.Moi-texte, .experience {
-  overflow: hidden; /* Empêche le dépassement du contenu */
-  white-space: nowrap; /* Empêche le passage à la ligne automatique */
-  text-overflow: ellipsis; /* Ajoute des points de suspension pour indiquer qu'il y a plus de contenu que ce qui est visible */
-}
