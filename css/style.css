@@ -436,7 +436,6 @@ h2::after{
   align-items: center;
   justify-content: space-around;
   padding-bottom: 2%;
-
 }
 
 .experiences-title{
@@ -482,7 +481,7 @@ h2::after{
 .experience{
   background-color: #E9EDC9;
   color:#664C43;
-  max-width: 100%;
+  max-width: 70%;
   border: solid 3px;
   border-color: #664C43;
   padding: 1% 2%;
