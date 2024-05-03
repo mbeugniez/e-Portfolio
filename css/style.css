@@ -426,7 +426,7 @@ padding: 50px 0;
 }
 /* FIN CSS Skills DIV */
 /* CSS EXPERIENCES DIV */
-.experience{
+.experiences{
   display: flex;
   background-color: #DFD8CA;
   height: 70vh;
@@ -436,11 +436,11 @@ padding: 50px 0;
   padding-bottom: 2%;
 }
 
-.experience h2{
+.experiences h2{
   color: #664C43;
 }
 
-.experience .line{
+.experiences .line{
   color:#664C43;
   height: 90%;
   align-self: center;
@@ -449,7 +449,7 @@ padding: 50px 0;
   flex-grow: 1;
 }
 
-.experience .bloc1{
+.experiences .bloc1{
   /* border: solid 5px; */
   /* width: 50%;
   height: 35%; */
@@ -460,7 +460,7 @@ padding: 50px 0;
   align-self: center;
 }
 
-.experience .bloc2{
+.experiences .bloc2{
   /* border: solid 5px; */
   width: 50%;
   height: 35%;
@@ -469,7 +469,7 @@ padding: 50px 0;
   align-self: center;
 }
 
-.date-experience{
+.date-experiences{
   color:#664C43;
   /*border: solid 2px; */
   border-color: rgb(49, 223, 253);
@@ -478,11 +478,11 @@ padding: 50px 0;
   font-size: 1.1em;
 }
 
-.date-experience p{
+.date-experiences p{
   font-weight: 500;
 }
 
-.parcours .experience{
+.experiences .experience{
   background-color: #E9EDC9;
   color:#664C43;
   border: solid 3px;
@@ -491,12 +491,12 @@ padding: 50px 0;
   padding: 1% 2%;
 }
 
-.parcours .experience h3{
+.experiences .experience h3{
   font-size: 1.5em;
   font-weight: 100;
 }
 
-.parcours .experience h4{
+.experiences .experience h4{
   color: #664C43;
   font-style: italic;
   font-size: 1.3em;
