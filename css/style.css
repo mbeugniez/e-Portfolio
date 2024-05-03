@@ -576,7 +576,7 @@ h2::after{
   text-align: center;
   z-index: 10;
   bottom: 15px;
-  color: #fff;
+  color: #664C43;
 }
 
 .Divchevron i {
@@ -586,7 +586,7 @@ h2::after{
 }
 
 .gg-chevron-down {
-  color:#FAF9EE;
+  color:#664C43;
   box-sizing: border-box;
   position: relative;
   display: block;
