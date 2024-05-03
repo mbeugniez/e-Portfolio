@@ -759,3 +759,8 @@ header{
   /* Autres styles... */
   max-width: 90%; /* Ajuste la largeur maximale de la case "Expérience" */
 }
+.Moi-texte, .experience {
+  overflow: hidden; /* Empêche le dépassement du contenu */
+  white-space: nowrap; /* Empêche le passage à la ligne automatique */
+  text-overflow: ellipsis; /* Ajoute des points de suspension pour indiquer qu'il y a plus de contenu que ce qui est visible */
+}
