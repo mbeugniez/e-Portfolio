@@ -483,7 +483,7 @@ h2::after{
 .experience{
   background-color: #E9EDC9;
   color:#664C43;
-  max-width: 70%;
+  max-width: 70vh;
   border: solid 3px;
   border-color: #664C43;
   padding: 1% 2%;
