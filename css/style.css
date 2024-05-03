@@ -460,7 +460,7 @@ h2::after{
   display:flex;
 }
 
-.date-experiences{
+.date-experience{
   color:#664C43;
   /*border: solid 2px; */
   border-color: rgb(49, 223, 253);
@@ -478,7 +478,7 @@ h2::after{
   flex-grow: 1;
 }
 
-.experiences{
+.experience{
   background-color: #E9EDC9;
   color:#664C43;
   max-width: 70%;
@@ -487,13 +487,13 @@ h2::after{
   padding: 1% 2%;
 }
 
-.experiences h3{
+.experience h3{
   font-size: 1.5em;
   font-weight: bold;
   
 }
 
-.experiences h4{
+.experience h4{
   color: #afaba8;
   font-style: italic;
   font-size: 1.3em;
