@@ -733,3 +733,20 @@ header{
     width: 100%; /* Ajustez la largeur des éléments pour occuper toute la largeur de l'écran */
   }
 }
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #DFD8CA;
+  padding: 50px 0; /* Ajoute de l'espace en haut et en bas */
+}
+
+/* CSS pour élargir la zone de texte */
+.Moi-texte {
+  color: #664C43;
+  width: 60%; /* Augmente la largeur de la zone de texte */
+  margin-right: auto; /* Centre la zone de texte horizontalement */
+  margin-left: auto; /* Centre la zone de texte horizontalement */
+  font-size: 1.1em;
+}
