@@ -755,3 +755,12 @@ header{
     margin-right: 0; /* Supprimer la marge de droite */
   }
 }
+.Moi-texte {
+  /* Vos autres styles */
+  overflow-wrap: break-word; /* Applique le retour à la ligne automatique pour éviter le débordement du texte */
+}
+
+.date-experience {
+  /* Vos autres styles */
+  overflow-wrap: break-word; /* Applique le retour à la ligne automatique pour éviter le débordement du texte */
+}
