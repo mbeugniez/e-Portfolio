@@ -733,3 +733,25 @@ header{
     width: 100%; /* Ajustez la largeur des éléments pour occuper toute la largeur de l'écran */
   }
 }
+/* Media queries pour les écrans de taille moyenne */
+@media screen and (max-width: 1024px) {
+  /* Styles à appliquer lorsque la largeur de l'écran est inférieure ou égale à 1024px */
+  .parcours,
+  .about {
+    height: auto; /* Définir la hauteur sur automatique pour permettre le contenu de s'ajuster */
+  }
+  
+  .Moi-texte {
+    width: 80%; /* Réduire la largeur du texte */
+    margin-right: 0; /* Supprimer la marge de droite */
+  }
+}
+
+/* Media queries pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+  /* Styles à appliquer lorsque la largeur de l'écran est inférieure ou égale à 768px */
+  .Moi-texte {
+    width: 100%; /* Ajuster la largeur du texte pour occuper toute la largeur de l'écran */
+    margin-right: 0; /* Supprimer la marge de droite */
+  }
+}
