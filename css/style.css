@@ -436,6 +436,8 @@ h2::after{
   align-items: center;
   justify-content: space-around;
   padding-bottom: 2%;
+  margin-left: 20%; /* Décalage vers la droite */
+  margin-right: 20%; /* Décalage vers la droite */
 }
 
 .experiences-title{
