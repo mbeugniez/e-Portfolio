@@ -750,3 +750,12 @@ header{
   margin-left: auto; /* Centre la zone de texte horizontalement */
   font-size: 1.1em;
 }
+.experiences {
+  /* Autres styles... */
+  height: 80vh; /* Augmente la hauteur de la case "Expérience" */
+}
+
+.experience {
+  /* Autres styles... */
+  max-width: 90%; /* Ajuste la largeur maximale de la case "Expérience" */
+}
