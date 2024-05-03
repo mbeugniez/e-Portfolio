@@ -453,7 +453,6 @@ h2::after{
   overflow-wrap: break-word;
   display:flex;
   flex-direction: row;
-	margin-top: 20%;
 }
 
 .bloc2{
