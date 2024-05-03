@@ -453,6 +453,7 @@ h2::after{
   overflow-wrap: break-word;
   display:flex;
   flex-direction: row;
+	margin-top: 20%;
 }
 
 .bloc2{
@@ -483,7 +484,7 @@ h2::after{
 .experience{
   background-color: #E9EDC9;
   color:#664C43;
-  max-width: 70vh;
+  max-width: 70%;
   border: solid 3px;
   border-color: #664C43;
   padding: 1% 2%;
