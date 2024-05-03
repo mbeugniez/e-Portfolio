@@ -426,12 +426,9 @@ padding: 50px 0;
 }
 /* FIN CSS Skills DIV */
 /* CSS EXPERIENCES DIV */
-
-.experiences{
-  /* border: solid 5px;
-  border-color: aqua; */
+.experience{
   display: flex;
-  background-color: #FAF9EE;
+  background-color: #DFD8CA;
   height: 70vh;
   flex-direction: column;
   align-items: center;
@@ -439,29 +436,37 @@ padding: 50px 0;
   padding-bottom: 2%;
 }
 
-.experiences-title{
+.experience h2{
   color: #664C43;
-  display: flex;
-  flex-direction: column;
 }
 
-.bloc1{
+.experience .line{
+  color:#664C43;
+  height: 90%;
+  align-self: center;
+  border: solid 1px;
+  margin: 0px 6% 0px 1%;
+  flex-grow: 1;
+}
+
+.experience .bloc1{
   /* border: solid 5px; */
-  /*width: 50%;*/
- flex-basis:50%;
-  height: 70vh;
-  overflow-wrap: break-word;
+  /* width: 50%;
+  height: 35%; */
+  flex-basis: auto;
   display:flex;
   flex-direction: row;
-justify-content: center;
-	align-self: center;
+  justify-content: center;
+  align-self: center;
 }
 
-.bloc2{
+.experience .bloc2{
   /* border: solid 5px; */
   width: 50%;
   height: 35%;
   display:flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .date-experience{
@@ -473,36 +478,32 @@ justify-content: center;
   font-size: 1.1em;
 }
 
-.experiences .line{
-  color:#DFD8CA;
-  height: 90%;
-  align-self: center;
-  border: solid 1px;
-  margin: 0px 6% 0px 1%;
-  flex-grow: 1;
+.date-experience p{
+  font-weight: 500;
 }
 
-.experience{
+.parcours .experience{
   background-color: #E9EDC9;
   color:#664C43;
-  max-width: 70%;
   border: solid 3px;
   border-color: #664C43;
+  flex-grow: 1;
   padding: 1% 2%;
 }
 
-.experience h3{
+.parcours .experience h3{
   font-size: 1.5em;
-  font-weight: bold;
-  
+  font-weight: 100;
 }
 
-.experience h4{
-  color: #afaba8;
+.parcours .experience h4{
+  color: #664C43;
   font-style: italic;
   font-size: 1.3em;
   opacity: 0.;
 }
+
+
 
 /* FIN CSS EXPERIENCE DIV */
 /* debut CSS contact DIV */
