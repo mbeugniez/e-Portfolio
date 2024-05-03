@@ -710,3 +710,26 @@ header{
       font-size: 10rem;
     }
   }
+/* Media queries pour les écrans de taille moyenne */
+@media screen and (max-width: 1024px) {
+  /* Styles à appliquer lorsque la largeur de l'écran est inférieure ou égale à 1024px */
+  .items {
+    width: 80%; /* Ajustez la largeur des éléments */
+  }
+}
+
+/* Media queries pour les écrans de petite taille */
+@media screen and (max-width: 768px) {
+  /* Styles à appliquer lorsque la largeur de l'écran est inférieure ou égale à 768px */
+  .items {
+    width: 90%; /* Ajustez la largeur des éléments */
+  }
+}
+
+/* Media queries pour les écrans très petits (mobile) */
+@media screen and (max-width: 480px) {
+  /* Styles à appliquer lorsque la largeur de l'écran est inférieure ou égale à 480px */
+  .items {
+    width: 100%; /* Ajustez la largeur des éléments pour occuper toute la largeur de l'écran */
+  }
+}
